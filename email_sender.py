@@ -3,7 +3,7 @@ from email.message import EmailMessage
 from string import Template
 from pathlib import Path
 
-html = Template(Path('index.html').read_text())
+html = Template(Path('../index.html').read_text())
 email = EmailMessage()
 email['from'] = 'Prince Nwaonicha'
 email['to'] = 'dummydummydummy911@gmail.com'
